@@ -1,3 +1,5 @@
+from cmu_graphics import * # Imports the required dependency
+
 #####Sprite Code#####
 ###Win Screen###
 def Win(player):
@@ -123,3 +125,5 @@ def onKeyRelease(key):
         Sword2.rotateAngle=+0
         Sword2.centerX=Hand2.centerX-17
         Sword2.centerY=Hand2.centerY-34
+
+cmu_graphics.run()
